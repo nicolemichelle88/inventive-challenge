@@ -1,0 +1,108 @@
+body {
+    background-color: black;
+    background-image: url("img/image.jpg");
+    height:150vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 2em;
+}
+
+.image-div{
+  display: flex;
+}
+
+.content-div {
+flex:1;
+}
+
+.headshotish {
+  height: 200px;
+  /* padding-top:2vh; */
+  margin-left: 3em;
+}
+
+.greeting {
+  flex: 1;
+  font-family: 'Special Elite', cursive;
+  font-size: 20pt;
+  display: inline-flex;
+}
+
+h1 {
+  margin-left: 5vw;
+  margin-top: 5vw;
+}
+
+.image-div > div {
+width: 25%;
+padding-top: 10vh;
+}
+
+button {
+  margin-left: 9.65vw;
+  padding: 8px;
+  border-radius: 10px;
+  background-color: grey;
+  color:white;
+  border-width: 2px;
+  cursor: pointer;
+}
+
+
+p {
+  flex: 3;
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.1em;
+  background-color:rgba(255, 255, 255, 0.60);
+  border-radius: 1em;
+  padding: 25px;
+  width: 45vw;
+}
+
+.icons {
+  display: flex;
+  width:50%;
+  padding-left: 10vw;
+}
+
+.linkedin {
+  padding-top: 5px;
+  height: 40px;
+  width: 40px;
+  flex: 1;
+}
+.email {
+  height: 50px;
+  width: 50px;
+  flex: 1;
+}
+
+/* mobile stylings */
+
+@media (max-width:480px){
+  body {
+    background-color: whitesmoke;
+    background-image:none;
+    display:block;
+    padding-left: 20vw;
+  }
+
+  .greeting img{
+    display:none;
+  }
+  .icons {
+    padding-left: 16vw;
+  }
+  button {
+    margin-left: 14vw;
+  }
+
+  p {
+    color:black;
+    background-color: whitesmoke;
+    font-family: 'Crimson Text', serif;
+  }
+
+
+}
