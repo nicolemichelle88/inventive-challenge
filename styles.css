@@ -80,7 +80,7 @@ p {
 
 /* mobile stylings */
 
-@media (max-width:500px){
+@media (max-width:525px){
   body {
     background-color: whitesmoke;
     background-image:none;
