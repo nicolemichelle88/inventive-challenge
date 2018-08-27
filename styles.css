@@ -54,10 +54,10 @@ p {
   flex: 3;
   font-family: 'Dosis', sans-serif;
   font-size: 1.1em;
-  background-color:rgba(255, 255, 255, 0.60);
+  background-color:rgba(255, 255, 255, 0.75);
   border-radius: 1em;
   padding: 25px;
-  width: 45vw;
+  width: 60vw;
 }
 
 .icons {
