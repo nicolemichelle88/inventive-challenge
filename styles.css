@@ -85,6 +85,10 @@ p {
 /* mobile stylings */
 
 @media (max-width: 900px) {
+    body {
+    height: 200vh;
+    }
+    
   .icons {
     padding-left:50%;
   }
