@@ -40,13 +40,12 @@ padding-top: 10vh;
 }
 
 button {
-  margin-left: 9.65vw;
+  /* margin-left: 9.65vw; */
   padding: 8px;
-  border-radius: 10px;
   background-color: grey;
   color:white;
-  border-width: 2px;
   cursor: pointer;
+  margin-top:1.5vh;
 }
 
 
@@ -54,17 +53,20 @@ p {
   flex: 3;
   font-family: 'Dosis', sans-serif;
   font-size: 1em;
-  margin-left: 10vw;
-  background-color:rgba(255, 255, 255, 0.9);
-  border-radius: 1em;
-  padding: 25px;
-  width: 75vw;
+}
+
+.bio {
+    background-color:rgba(255, 255, 255, 0.9);
+    border-radius: 1em;
+    padding: 25px;
+    width: 75vw;
+    margin-left: 10vw;
 }
 
 .icons {
   display: flex;
   width:50%;
-  padding-left: 10vw;
+  padding-left: 75%;
 }
 
 .linkedin {
@@ -81,28 +83,37 @@ p {
 
 /* mobile stylings */
 
+@media (max-width: 900px) {
+  .icons {
+    padding-left:50%;
+  }
+}
+
 @media (max-width:525px){
   body {
     background-color: whitesmoke;
     background-image:none;
     display:block;
-    padding-left: 20vw;
+    margin-left: 5vw;
   }
 
   .greeting img{
     display:none;
   }
   .icons {
-    padding-left: 16vw;
+    padding-left: 0;
   }
   button {
-    margin-left: 14vw;
+    width: 10em;
   }
 
   p {
     color:black;
     background-color: whitesmoke;
-    font-family: 'Crimson Text', serif;
+  }
+  .bio {
+    margin-left: 0;
+    background-color: whitesmoke;
   }
 
 
